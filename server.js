@@ -13,7 +13,7 @@ const db = require('./models')
 db.sequelize.sync()
 
 app.get('/', (req, res)=> {
-    res.send('Chilya Fadhilatin Nisa');
+    res.send('Inayah Najmi Zakia');
 });
 
 app.use('/api/quizzes', quizRoute)
